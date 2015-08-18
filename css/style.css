@@ -1,0 +1,1319 @@
+
+body {font-family: 'Fira Sans', sans-serif;}
+
+
+/* 
+
+.##.......####...##..##...####...##..##..######.
+.##......##..##...####...##..##..##..##....##...
+.##......######....##....##..##..##..##....##...
+.##......##..##....##....##..##..##..##....##...
+.######..##..##....##.....####....####.....##...
+................................................ 
+
+*/
+
+/* ////////////////////////////////////////////////////// */
+
+.container { width: 1140px; margin: 0 auto;}
+
+
+.row>div { float: left; padding: 15px; box-sizing: border-box;}
+.row { margin-left: -15px; margin-right: -15px;}
+
+
+
+.pull-left {float: left;}
+
+.pull-right {float: right;}
+
+.clearfix:after {
+
+content: "";
+display: both;
+clear: both;
+
+}
+
+
+.full-width {width: 100%; box-sizing: border-box;}
+
+.somit-dark { background-color: #2c2c2c;}
+
+.somit-white { background-color: #fff;}
+
+.somit-grey { background-color: #f2f2f2;}
+
+.somit-baloons { 
+
+background-color: #97b8ed; 
+overflow: hidden;
+background-image: url(../img/hot-air-balloons-37v.jpg);
+min-height: 645px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 120px 0;
+-webkit-background-size: cover ;
+background-size: cover;
+height: 645px;
+text-align: center;
+
+}
+
+.somit-clouds {background-color: #3e6e89; overflow: hidden;}
+
+.somit-sky { background-color: #9dc5e4;}
+
+@font-face{ 
+      font-family: '../fonts/WebSymbolsLigaRegular', sans-serif;
+          src: url(../fonts/WebSymbolsLiga-Regular.eot);
+          src: url(../fonts/WebSymbolsLiga-Regular.eot?#iefix) format('embedded-opentype'),
+               url(../fonts/WebSymbolsLiga-Regular.woff) format('woff'),
+               url(../fonts/WebSymbolsLiga-Regular.ttf) format('truetype'),
+               url(../fonts/WebSymbolsLigaRegular.svg) format('svg');
+}
+
+/* ////////////////////////////////////////////////////// */ 
+
+/* 
+
+.##..##..######...####...#####...######..#####..
+.##..##..##......##..##..##..##..##......##..##.
+.######..####....######..##..##..####....#####..
+.##..##..##......##..##..##..##..##......##..##.
+.##..##..######..##..##..#####...######..##..##.
+................................................ 
+
+*/
+
+/* ////////////////////////////////////////////////////// */
+
+
+
+.logo { 
+
+color: #fff; 
+text-decoration: none; 
+color: white;
+font-size: 22px;
+font-weight: 500;
+line-height: 39px;
+margin-top: 15px;
+
+
+}
+
+a.logo {
+	margin-top: 19px;
+}
+
+.nav-primary { }
+
+.nav-primary > ul { padding: 0; margin: 0; }
+
+.nav-primary > ul > li { display: inline-block; margin: 0; }
+
+.nav-primary > ul > li > a { 
+
+display: inline-block; 
+text-decoration: none; 
+color: #fff;
+padding: 6px 10px;
+border: 1px solid black;
+
+}
+
+.active { border: 1px solid #efefef; }
+
+.active > a { }
+
+.container.menu {padding: 15px 0;}
+
+/* ////////////////////////////////////////////////////// */ 
+
+/*
+.##...##..######..##..##..##..##.
+.###.###..##......###.##..##..##.
+.##.#.##..####....##.###..##..##.
+.##...##..##......##..##..##..##.
+.##...##..######..##..##...####..
+................................. */
+
+/* ////////////////////////////////////////////////////// */
+.somit-heador {
+height: 70px;
+background-color: #2c2c2c;
+
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+  margin-top: 19px;
+}
+li{
+  display: table-cell;
+  text-align: center;
+}
+a {
+  display: block;
+  color: white;
+font-family: 'Fira Sans';
+font-size: 18px;
+font-weight: 400;
+text-decoration: none;
+  
+}
+li:hover{
+  background-color: white;
+
+}
+
+a:hover {
+	color:black;
+}
+/* ////////////////////////////////////////////////////// */ 
+
+/* 
+.##...##...####...######..##..##.........
+.###.###..##..##....##....###.##.........
+.##.#.##..######....##....##.###.........
+.##...##..##..##....##....##..##.........
+.##...##..##..##..######..##..##.........
+.........................................
+*/
+/**
+
+.#####....####...##..##..##..##..######..#####..
+.##..##..##..##..###.##..###.##..##......##..##.
+.#####...######..##.###..##.###..####....#####..
+.##..##..##..##..##..##..##..##..##......##..##.
+.#####...##..##..##..##..##..##..######..##..##.
+................................................
+
+**/
+
+h1 {
+	top: 0% left: 0%; 
+    margin: auto;
+	color: white;
+	font-size: 66px;
+	text-align: center;
+	display: block;
+	}
+
+a.skip-link {
+	border: 1px solid white;
+	width: 120px;
+	display: block;
+	padding: 13px 14px 9px 13px;
+	position: relative;
+	
+	
+	
+}
+
+a.skip-link:after {
+	content: "";
+  	background: url(../img/forma-1.png);
+  	position: absolute;
+  	top: 91px;
+	left: 61px;
+	height: 58px;
+	width: 58px;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+a.skip-link:hover {
+	border: 1px solid black;
+}
+
+a.skip-link:hover:after {
+	content: "";
+  	background: url(../img/forma1-1.png);
+  	position: absolute;
+  	top: 91px;
+	left: 61px;
+	height: 58px;
+	width: 58px;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.skip-forma {
+	position: absolute;
+	top: 107%;
+	left: 45%;
+}
+
+.banner {
+	position: relative;
+
+}
+
+.banner a{
+display: inline-block;
+margin-bottom: 36px;
+margin-top: 130px;
+}
+/* ////////////////////////////////////////////////////// 
+
+.#####...######..##..##..######..######..######..######...####..
+.##..##..##......###.##..##......##........##......##....##.....
+.#####...####....##.###..####....####......##......##.....####..
+.##..##..##......##..##..##......##........##......##........##.
+.#####...######..##..##..######..##......######....##.....####..
+................................................................
+
+
+////////////////////////////////////////////////////// */ 
+
+.pull-down {
+	margin-top: 90px;
+	margin-bottom: 100px;
+	padding: 
+}
+
+.thumbs {
+	background-image: url(../img/forma-2.png);
+	height: 58px;
+	width: 58px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+   top: -7px; left: 20px;
+}
+
+.glasses {
+	background-image: url(../img/forma-3.png);
+	height: 58px;
+	width: 58px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+   top: 10px; left: 10px;
+}
+
+.photo-camera {
+	background-image: url(../img/forma-4.png);
+	height: 58px;
+	width: 58px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+   top: -3px; left: 25px;
+}
+
+
+
+.binoculars {
+	background-image: url(../img/forma-5.png);
+	height: 58px;
+	width: 58px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+   top: 10px; left: 10px;
+}
+
+.no-padding {
+	padding: 7px;
+}
+
+/* ////////////////////////////////////////////////////// 
+
+.##..##..######..#####...######...####..
+.##..##....##....##..##..##......##..##.
+.##..##....##....##..##..####....##..##.
+..####.....##....##..##..##......##..##.
+...##....######..#####...######...####..
+........................................
+
+
+////////////////////////////////////////////////////// */ 
+
+.h1-video {
+	color: #444;
+	font-size: 32px;
+	line-height: 26px;
+	display: inline-block;
+	padding-bottom: 21px;
+	
+	
+}
+
+
+.underlined:after {
+	content: "";
+	display: block;
+	height: 5px;
+	width: 63px;
+	background-color: #3e98d7;;
+	position: relative;
+	bottom: -15px;
+}
+
+.underlined-left:after {
+	left: 0px;
+}
+
+.underlined-center:after {
+	left: 47.5%;
+	bottom: -7px;
+}
+
+.text-video {
+	margin-top: 49px;
+}
+
+.video-img {
+	box-shadow: 0px 30px 0px -20px #e6e6e6;
+}
+
+.hr {
+
+	background-color: #ccc;
+    height: 2px; 
+    width: 100%; 
+   	margin-top: 106px;
+ } 
+
+    
+/***
+
+..####....####...##......##......######..#####...##..##.
+.##......##..##..##......##......##......##..##...####..
+.##.###..######..##......##......####....#####.....##...
+.##..##..##..##..##......##......##......##..##....##...
+..####...##..##..######..######..######..##..##....##...
+........................................................
+
+***/
+
+.h2-gallery {
+	text-align: center;
+	font-size: 32px;
+	padding-top: 97px;
+	padding-bottom: 80px;
+}
+
+
+/*****
+
+.######..##......######...####...##..##..######...####..
+.##......##........##....##......##..##....##....##.....
+.####....##........##....##.###..######....##.....####..
+.##......##........##....##..##..##..##....##........##.
+.##......######..######...####...##..##....##.....####..
+........................................................
+
+******/
+
+.h2-flights {
+	color: #444;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 87px;
+
+}
+
+.somit-flights {
+	background-color: #97b8ed; 
+	overflow: hidden;
+	background-image: url(../img/green-mountain-photo-wallpaper-hd-resolution.jpg);
+	min-height: 625px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 120px 0;
+	-webkit-background-size: cover ;
+	background-size: cover;
+	height: 625px;
+}
+
+
+.baloon-pic {
+	background-image: url(../img/sharik.png);
+	height: 68px;
+	width: 58px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+   	top: 0px; left: 0px;
+}
+
+.nuber-on-baloon-1 {
+	position: relative; 
+}
+
+.text-on-baloon-1:after {
+	content: "Взлет";
+	position: relative;
+	top: -40px;
+	left: -8px;
+	color: #454545;
+	font-size: 18px;
+}
+
+
+.text-on-baloon-1:before {
+	content: "1";
+	position: relative;
+	top: 9px;
+	left: 17px;
+	color: white;
+	font-size: 20px;
+	
+}
+
+.positioin-for-first-baloon {
+	position: relative;
+	top: 170px;
+	left: 39px;
+}
+
+
+.text-on-baloon-2:after {
+	content: "2";
+	position: relative;
+	top: -19px;
+	left: -43px;
+	color: white;
+	font-size: 20px;
+}
+
+.text-on-baloon-2:before {
+	content: "Набираем высоту";
+	position: relative;
+	top: -65px;
+	left: -12px;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.positioin-for-second-baloon {
+	position: relative;
+	top: 76px;
+	left: 294px;
+}
+
+.text-on-baloon-3:after {
+	content: "3";
+	position: relative;
+	top: 7px;
+	left: -44px;
+	color: white;
+	font-size: 20px;
+}
+
+.text-on-baloon-3:before {
+	content: "Летаем";
+	position: relative;
+	top: -37px;
+	left: -12px;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.positioin-for-third-baloon {
+	position: relative;
+	top: -119px;
+	left: 540px;
+}
+
+
+.text-on-baloon-4:after {
+	content: "4";
+	position: relative;
+	top: 10px;
+	left: -78px;
+	color: white;
+	font-size: 20px;
+}
+
+.text-on-baloon-4:before {
+	content: "Снижаемся";
+	position: relative;
+	top: -37px;
+	left: -12px;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.positioin-for-forth-baloon {
+	position: relative;
+	top: -63px;
+	left: 840px;
+}
+
+.text-on-baloon-5:after {
+	content: "5";
+	position: relative;
+	top: 10px;
+	left: -54px;
+	color: white;
+	font-size: 20px;
+}
+
+.text-on-baloon-5:before {
+	content: "Садимся";
+	position: relative;
+	top: -37px;
+	left: -12px;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+
+.positioin-for-fifth-baloon {
+	position: relative;
+	top: -105px;
+	left: 1069px;
+}
+
+.dotted-line {
+	background-image: url(../img/path.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+   	top: -240px; left: 0px;
+  	width: 1140px;
+	height: 176px;
+
+}
+
+
+/*** 
+
+..####....####...##..##..##..##..######..#####....####...##...##..##..##.
+.##..##..##..##..##..##..###.##....##....##..##..##..##..##...##..###.##.
+.##......##..##..##..##..##.###....##....##..##..##..##..##.#.##..##.###.
+.##..##..##..##..##..##..##..##....##....##..##..##..##..#######..##..##.
+..####....####....####...##..##....##....#####....####....##.##...##..##.
+.........................................................................
+
+*****/
+
+.somit-countdown {
+	height: 100px;
+	background-color: #f2f2f2;
+}
+
+.h2-countdown {
+	color: #26668e;
+	font-size: 32px;
+	padding-top: 25px;
+	padding-bottom: 33px;
+}
+
+#defaultCountdown {
+		background-color: #f2f2f2;
+}
+
+/***
+.######...####...#####...##...##...####..
+.##......##..##..##..##..###.###..##..##.
+.####....##..##..#####...##.#.##..######.
+.##......##..##..##..##..##...##..##..##.
+.##.......####...##..##..##...##..##..##.
+......................................... 
+***/
+
+
+.h2-forma {
+	color: #444;
+	font-size: 32px;
+	padding-top: 93px;
+}
+
+.text-forma {
+	padding-top: 75px;
+}
+
+.text-in-forma-padding {
+	padding-top: 93px;
+}
+
+.number-of-people {
+	padding-top: 43px;
+}
+
+.name-and-second-name {
+	padding-top: 43px;
+}
+
+.phone {
+	padding-top: 43px;
+}
+
+.cost {
+	
+}
+
+.select-for-route{
+  background: none;
+  border: none;
+  outline: none;
+  width: 355px;
+  height: 45px;
+  line-height: 45;
+  position: relative;
+  z-index: 10;
+  color: #86A5A9;
+}
+.select-route-wrapper{
+ border: 1px solid #d5d5d5;
+border-radius: 5px;
+  width: 340px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+
+.select-route-wrapper:hover{
+ border: 1px solid #aed6ff;
+border-radius: 5px;
+  width: 340px;
+  overflow: hidden;
+  position: relative;
+}
+
+.select-route-wrapper:active{
+ border: 1px solid #aed6ff;
+border-radius: 5px;
+  width: 340px;
+  overflow: hidden;
+  position: relative;
+}
+
+.select-icon{
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #e8e8e8;
+  position: absolute;
+  z-index: 5;
+  right: 10px;
+  top: 20px;
+}
+.select-for-route:focus+.select-icon{
+  border-top-color: #e8e8e8;
+}
+
+/* Second forma */ 
+
+.select-number-of-people-wrapper {
+	 border: 1px solid #d5d5d5;
+border-radius: 5px;
+width: 97px;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.select-number-of-people-wrapper:active {
+	 border: 1px solid #aed6ff;
+border-radius: 5px;
+width: 97px;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.select-number-of-people-wrapper:hover {
+	 border: 1px solid #aed6ff;
+border-radius: 5px;
+width: 97px;
+  overflow: hidden;
+  position: relative;
+ 
+}
+
+.select-for-people {
+background: none;
+  border: none;
+  outline: none;
+width: 120px;
+  height: 45px;
+  line-height: 45;
+  position: relative;
+  z-index: 10;
+  color: #86A5A9;
+}
+
+.select-for-people:focus+.select-icon{
+  border-top-color: #e8e8e8;
+}
+
+.child-forma {
+	position: relative;
+	top:10px;
+	left: -120px;
+
+}
+
+.select-number-of-child-wrapper {
+	 border: 1px solid #d5d5d5;
+border-radius: 5px;
+width: 97px;
+  overflow: hidden;
+  position: relative;
+  
+  left: 143px;
+}
+
+.select-number-of-child-wrapper:hover {
+	 border: 1px solid #aed6ff;
+border-radius: 5px;
+width: 97px;
+  overflow: hidden;
+  position: relative;
+  
+  left: 143px;
+}
+
+.select-number-of-child-wrapper:active {
+	 border: 1px solid #aed6ff;
+border-radius: 5px;
+width: 97px;
+  overflow: hidden;
+  position: relative;
+  
+  left: 51px;
+}
+
+.select-name-wrapper {
+	position: relative;
+	top: -36px;
+	left: 0px;
+	border: 1px solid #d5d5d5;
+border-radius: 5px;
+  width: 340px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.select-name-wrapper:active {
+	position: relative;
+	top: -36px;
+	left: 0px;
+	border: 1px solid #aed6ff;
+border-radius: 5px;
+  width: 340px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.select-name-wrapper:hover {
+	position: relative;
+	top: -36px;
+	left: 0px;
+	border: 1px solid #aed6ff;
+border-radius: 5px;
+  width: 340px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.input-for-name {
+	background: none;
+  border: none;
+  outline: none;
+	width: 355px;
+  height: 43px;
+  position: relative;
+  z-index: 10;
+  color: black;
+  padding-left: 10px;
+}
+
+.input-for-name:after {
+	content: "";
+  	background: url(../img/icon-chela.png);
+  	position: absolute;
+  	top: 0px;
+	left: 0px;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-size: auto;
+
+}
+
+.select-name-wrapper:after {
+	content: "";
+
+}
+
+.select-telefon-wrapper:hover {
+	position: relative;
+	top: 30px;
+	left: 0px;
+	border: 1px solid #aed6ff;
+border-radius: 5px;
+  width: 340px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.select-telefon-wrapper {
+	position: relative;
+	top: 30px;
+	left: 0px;
+	margin-top: ;
+	border: 1px solid #d5d5d5;
+border-radius: 5px;
+  width: 340px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.price-nine {
+	color: #f97e7e;
+font-size: 38px;
+margin-left: 15px;
+position: relative;
+top: 10px;
+}
+
+.big-blue-botton {
+	background-color: #46b0dc;
+	border-radius: 5px;
+	padding: 13px 42px 13px 39px;
+	border: none;
+	color: white;
+}
+
+
+
+.big-blue-botton:active {
+	background-color: #035475;
+	border-radius: 5px;
+	padding: 13px 42px 13px 39px;
+	border: none;
+	color: white;
+}
+
+/****
+
+Forma -overwrite 
+
+****/
+
+.width-for-all-column {
+	width: 196px;}
+
+.route-of-the-fly {
+	width: 552px;
+	padding-top: 92px;
+
+}
+
+.forma-for-route-of-the-fly {
+	line-height: 24px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.text-of-route-of-the-fly{
+	color: #444;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 51px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.number-of-the-people-row {
+	width: 552px;
+	line-height: 24px;
+	height: 112px;
+}
+
+.row-text-of-the-people {
+	font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+vertical-align: top; 
+
+}
+
+.text-for-number-of-people {
+ vertical-align: middle;
+ display: inline-block;
+ position: relative;
+ top: 35px;
+
+}
+
+.forma-for-number-of-the-people {
+	width: 339px;
+vertical-align: top;
+
+	
+}
+
+.text-of-name-forma {
+	font-size: 18px;
+font-weight: 400;
+}
+
+.third-forma-big-row {
+min-height: 73px;
+}
+/****
+
+.######...####....####..
+.##......##..##..##..##.
+.####....######..##.###.
+.##......##..##..##..##.
+.##......##..##...#####.
+........................
+
+***/
+.padding-top-for-faq {
+	padding-top: 153px;
+}
+
+.padding-for-faq {
+	padding-top: 58px;
+}
+
+.h2-faq {
+	color: #444;
+font-size: 32px;
+}
+
+.h3-faq {
+	padding-top: 65px;
+	padding-bottom: 35px;
+	color: #444;
+	font-size: 26px;
+}
+
+.email-faq {
+	border-bottom: 1px solid black;
+}
+
+.h4-faq {
+	position: relative;
+	font-size: 18px;
+	top: -10px;
+}
+
+.question-pick {
+	background-image: url(../img/question.png);
+	height: 40px;
+	width: 45px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+   	top: -16px; left: -3px;
+}
+
+.second-question {
+	top: 108px; left: -3px;
+}
+
+.third-question {
+	top: 238px; left: -3px;
+}
+
+.answer {
+	width: 447px;
+	margin-left: 16px;
+	font-style: italic;
+}
+
+.text-of-second-question {
+	top: 23px; left: 2px;
+}
+
+.full-text-of-second-question {
+	top: 43px; left: 8px;
+	position: relative;
+}
+
+.text-of-third-question {
+	top: 63px; left: 2px;
+	position: relative;
+}
+
+.full-text-of-third-question {
+	top: 83px; left: 8px;
+	position: relative;
+}
+
+.forth-question {
+	top: 438px; left: -3px;
+}
+
+.text-of-forth-question {
+	position: relative;
+	top: 130px; left: 2px;
+}
+
+.full-text-of-forth-question {
+	top: 146px; left: 8px;
+	position: relative;
+}
+
+
+/***
+
+..####...#####...######..##..##...........####...##..##..##..##.
+.##......##..##..##.......####...........##......##.##....####..
+.##.###..#####...####......##....######...####...####......##...
+.##..##..##..##..##........##................##..##.##.....##...
+..####...##..##..######....##.............####...##..##....##...
+................................................................
+
+****/
+
+
+.somit-grey-sky {
+	background-color: #7d8a8c; 
+overflow: hidden;
+background-image: url(../img/photo-nebo.jpg);
+min-height: 374px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 120px 0;
+-webkit-background-size: cover ;
+background-size: cover;
+height: 374px;
+margin-top: 163px;
+font-size: 24px;
+}
+
+.no-hover:hover {
+	background: none;
+	
+}
+
+.padding-top-for-all-ovals {
+	position: relative;
+	top: -52px;
+}
+
+.oval {
+	border-radius: 160px;
+	border: 6px solid white;
+	height: 160px;
+	width: 160px;
+	color: white;
+font-size: 24px;
+
+}
+
+.padding-for-first-oval {
+	padding-left: 160px;
+}
+
+.inside-oval {
+	color: white;
+font-size: 42px;
+position: relative;
+top: 50px
+}
+
+.outside-oval {
+	color: white;
+	font-size: 18px;
+	padding-top: 26px;
+}
+
+.padding-for-ovals {
+	padding-left: 50px;
+}
+
+.padding-right-for-last-oval {
+	padding-right: 160px;
+}
+
+/****
+
+.######..######...####...##...##.
+...##....##......##..##..###.###.
+...##....####....######..##.#.##.
+...##....##......##..##..##...##.
+...##....######..##..##..##...##.
+.................................
+
+****/ 
+
+.h2-team {
+	color: #444;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 99px;
+}
+
+.margint-top-for-img-team {
+	margin-top: 88px;
+}
+
+.name-of-pilot {
+	color: #444;
+	font-size: 22px;
+	margin-top: 37px;
+}
+
+.status-of-pilot {
+	color: #444;
+font-size: 18px;
+}
+
+/*** 
+
+.#####...######..##..##..######..######..##...##...####..
+.##..##..##......##..##....##....##......##...##..##.....
+.#####...####....##..##....##....####....##.#.##...####..
+.##..##..##.......####.....##....##......#######......##.
+.##..##..######....##....######..######...##.##....####..
+.........................................................
+****/ 
+
+.h2-reviews {
+	color: #444;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 112px;
+}
+
+.name-of-reviews {
+margin-top: 29px;
+color: #353535;
+font-size: 22px;
+}
+
+.text-of-review {
+	color: #353535;
+	font-size: 18px;
+	font-style: italic;
+	width: 545px;
+	margin-top: 26px;
+}
+
+/***
+
+.#####...#####...######..######...####....####...######..######..#####..........
+.##..##..##..##..##......##......##..##..##..##....##....##......##..##.........
+.#####...#####...####....####....##..##..##..##....##....####....#####..........
+.##......##..##..##......##......##..##..##..##....##....##......##..##.........
+.##......##..##..######..##.......####....####.....##....######..##..##.........
+................................................................................
+
+***/ 
+
+.somit-pre-footer {
+	min-height: 448px;
+	background-color: #97b8ed; 
+	overflow: hidden;
+	background-image: url(../img/prefooter-img.jpg);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 55px 0;
+	-webkit-background-size: cover ;
+	background-size: cover;
+	height: 448px;
+	margin-top: 73px;
+}
+
+.samolet-border {
+	background-color: #337ba0;
+	border-radius: 5px;
+	width: 62px;
+	height: 62px;
+	padding: 12px 11px 10px 10px;
+	position: relative;
+	left: 47.5%;
+}
+
+.samolet-describe {
+	text-align: center;
+	color: #444;
+font-size: 26px;
+}
+
+.samolet-small-describe {
+	color: #616161;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+}
+
+.paddings-for-adresses-row {
+	padding-top: 63px;
+}
+
+.geotarget {
+	background-image: url(../img/geotarget.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 50px;
+	
+	
+}
+
+.name-of-office {
+	padding-left: 48px;
+	color: #2b2b2b;
+	font-size: 22px;
+	position: relative;
+	top: -21px
+}
+
+.describe-name-office {
+	width: 138px;
+color: #525252;
+font-size: 20px;
+font-style: italic;
+padding-left: 48px;
+position: relative;
+width: 162px;
+top: -10px
+}
+
+.telefon-of-the-office {
+	color: #292929;
+font-size: 26px;
+padding-left: 48px;
+}
+
+
+.email-adress {
+	background-image: url(../img/mail.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 50px;
+	padding-left: 48px;
+	font-size: 22px;
+	line-height: 15px;
+	position: relative;
+	top: -15px;
+}
+
+.vk {
+	background:url(../img/result.png);
+	background-position: 0px -36px;
+
+}
